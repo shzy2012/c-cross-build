@@ -4,7 +4,11 @@
 AC_PREREQ([2.71])
 AC_INIT([example], [1.0],[])
 AM_INIT_AUTOMAKE(gnu subdir-objects)
+AC_CONFIG_SRCDIR([src/example.c])
+AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile])
+
+
 # Checks for programs.
 AC_PROG_CC
 
